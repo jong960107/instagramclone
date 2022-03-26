@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lato:ital,wght@0,400;1,300&family=Open+Sans:ital@0;1&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#mainWrapper {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+    top: 60px;
+    overflow: hidden;
+    margin-top: 110px;
+}
+
+#sectionImg {
+    width: 470px;
+    height: 600px;
+    background: url(/Users/dahyunjong/Desktop/study/projects/instagram/src/images/instagram.png) no-repeat;
+    float: left;
+    display: block;
+}
+
+#section {
+    width: 430px;
+    height: 600px;
+    border: solid white 1px;
+    background: #fff;
+    float: left;
+}
+
+#signInWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid rgba(218, 218, 231, 0.733);
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Hurricane', cursive;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(218, 218, 231, 0.733);
+}
+
+button {
+    width: 80%;
+    margin-top: 10px;
+    height: 30px;
+    border: #fff;
+    color: white;
+    background-color: skyblue;
+}
+
+#facebookLogin {
+    margin-top: 10px;
+    width: 80%;
+    height: 60px;
+    background: url(/Users/dahyunjong/Desktop/study/projects/instagram/src/images/facebook.png) no-repeat;
+    background-size: cover;
+}
